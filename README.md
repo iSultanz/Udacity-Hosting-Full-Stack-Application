@@ -33,7 +33,7 @@ POSTGRES_PASSWORD=postgres
 POSTGRES_PORT=5432
 URL=http://localhost:3001
 ```
-
+Backend URL: http://udacityhostingfullstack-env.eba-hyhshyr2.us-east-1.elasticbeanstalk.com/
 ### Dependencies
 
 ```
