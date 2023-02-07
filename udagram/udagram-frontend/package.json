@@ -7,10 +7,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "npm install -f && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh",
-    "test": "ng test --watch=false",
+    "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
+    "test:karma": "chmod +x bin/InstallKarmaCli.sh && bin/InstallKarmaCli.sh"
   },
   "private": true,
   "dependencies": {
