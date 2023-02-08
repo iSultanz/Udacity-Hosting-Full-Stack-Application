@@ -16,8 +16,24 @@ The project will also include writing documentation and runbooks covering the op
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
-
-
+## Env
+```
+AWS_BUCKET=imagecontainorbucket476684081341
+AWS_DEFAULT_REGION=us-east-1
+AWS_PROFILE=default
+AWS_REGION=us-east-1
+AWS_SECRET_ACCESS_KEY=l3odRFWHVoQcvYOYIt3x3zF1rBYFZVwRUPrjwfTX
+AWS_ACCESS_KEY_ID=AKIAW57EV3C6XEECPZNB
+JWT_SECRET=super!@#!@
+PORT=3001
+POSTGRES_DB=postgres
+POSTGRES_HOST=database-1.coldpksjxce3.us-east-1.rds.amazonaws.com
+POSTGRES_USERNAME=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_PORT=5432
+URL=http://localhost:3001
+```
+Backend URL: http://udacityhostingfullstack-env.eba-hyhshyr2.us-east-1.elasticbeanstalk.com/
 ### Dependencies
 
 ```
