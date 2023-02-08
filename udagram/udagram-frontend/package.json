@@ -10,15 +10,14 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
-    "test:karma": "chmod +x bin/InstallKarmaCli.sh && bin/InstallKarmaCli.sh"
+    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh"
   },
   "private": true,
   "dependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14",
     "@angular/forms": "^8.2.14",
-    "@angular/http": "^7.2.16",
+    "@angular/http": "^7.2.12",
     "@angular/platform-browser": "^8.2.14",
     "@angular/platform-browser-dynamic": "^8.2.14",
     "@angular/router": "^8.2.14",
