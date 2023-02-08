@@ -10,7 +10,7 @@
     "dev": "npx ts-node ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
-    "deploy": "npm run build && eb list && eb use Udacityhostingfullstack-env && eb deploy",
+    "deploy": "npm run build && eb init Udacityhostingfullstack-env && eb list && eb use Udacityhostingfullstack-env && eb deploy",
     "build": "npm install --force && npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
