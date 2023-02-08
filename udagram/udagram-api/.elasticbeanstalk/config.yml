@@ -1,7 +1,7 @@
 deploy:
   artifact: www/Archive.zip
 global:
-  application_name: udagram-api
+  application_name: udagram-backend
   branch: null
   default_ec2_keyname: null
   default_platform: Node.js 16
