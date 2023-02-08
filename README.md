@@ -4,8 +4,8 @@
  Udagram is an website application for posting picture from user to show it to the world.
  The application was provided from Udacity to be hosted in AWS with pipeline using CircleCi.
 ## URLS
-Backend URL: http://udagrambackend-env.eba-jsbbwkk3.us-east-1.elasticbeanstalk.com
-Frontend URL: http://udagram-bucket476684081341.s3-website-us-east-1.amazonaws.com
+- Backend URL: http://udagrambackend-env.eba-jsbbwkk3.us-east-1.elasticbeanstalk.com
+- Frontend URL: http://udagram-bucket476684081341.s3-website-us-east-1.amazonaws.com
 
 ## Getting Started
 Clone the project ```https://github.com/iSultanz/udacity-udagram.git``` then navigate to the root of the repository
@@ -76,9 +76,6 @@ the process of each job is:
     - Install AWS CLI - latest
     - Configure AWS Access Key ID
     - Deploy App
-
-[![CircleCi](https://circleci.com/gh/?/udacity-udagram
-.svg?style=svg)](https://github.com/iSultanz/udacity-udagram)
 
 
 ## Built With And Deployed
