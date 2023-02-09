@@ -57,26 +57,6 @@ URL
 - S3 Bucket(Udagram-frontend) for hosting Frontend
 - Elastic Beanstalk for hosting the APIs (Udagram-api)
 
-## Pipeline Process
-The pipeline process is divided to two section build and deploy when the build section end the pipeline wait the approval to continue deploying 
-the process of each job is:
-- Build
-    - Spin up Environments
-    - Preparing environments variables
-    - Install Node
-    - Install Frontend Dependencies
-    - Install API Dependencies
-    - Frontend Lint
-    - Frontend Build
-    - API Build
-- Deploy
-    - Spin up Environments
-    - Preparing environments variables
-    - Install Node
-    - Install AWS CLI - latest
-    - Configure AWS Access Key ID
-    - Deploy App
-
 
 ## Built With And Deployed
 
